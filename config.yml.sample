@@ -1,0 +1,8 @@
+---
+auth:
+  api_key: DUMMYAPIKEY
+
+accounts:
+  - {'name': 'account_one'}
+  - {'name': 'account_two'}
+  - {'name': 'account_three'}
