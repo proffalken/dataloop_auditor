@@ -132,6 +132,11 @@ for account in config['accounts']:
                         for email in action['details']['emails']:
                             action_list = action_list + "%s " % email
                         action_list = action_list + "\n"
+                    if action['type'] == "WEBHOOK":
+                        action_list = action_list + "%s " % (
+                        action['details']['url']
+                        )
+                        action_list = action_list + "\n"
 
 
         rules_table.add_row([rule, rules_criteria, action_list])
