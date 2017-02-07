@@ -13,7 +13,7 @@ Install the requirements
 
 `pip install -r requirements.txt`
 
-Update `config.yml` with your API key and the accounts that you want to analyse
+Copy `config.yml.sample` to `config.yml` and update it with your API key, organisation name and the accounts that you want to analyse
 
 Run the script `./dlchecks.py > dataloop.md`
 

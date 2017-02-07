@@ -1,5 +1,6 @@
 ---
 auth:
+  organisation: your-organisation-name
   api_key: DUMMYAPIKEY
 
 accounts:
